@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora</h1>
+        <div class="result" id="result"></div>
+        <div class="input-container">
+            <input type="number" id="num1" placeholder="Ingresa el primer número">
+            <input type="number" id="num2" placeholder="Ingresa el segundo número">
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('sumar')">Sumar</button>
+            <button onclick="calculate('restar')">Restar</button>
+            <button onclick="calculate('multiplicar')">Multiplicar</button>
+            <button onclick="calculate('dividir')">Dividir</button>
+            <button onclick="clearFields()">Limpiar</button>
+            <button onclick="exitCalculator()">Salir</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
