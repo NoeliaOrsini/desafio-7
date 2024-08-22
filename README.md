@@ -29,6 +29,6 @@ Esta es una calculadora simple creada con HTML, CSS y JavaScript. Permite realiz
    ```bash
    git clone https://github.com/NoeliaOrsini/Calculadora-Basica.git
 
-## Abre el archivo `index.html` en el navegador 
-## Realizado por Noelia Orsini 
+Abre el archivo `index.html` en el navegador 
+Realizado por Noelia Orsini 
 
